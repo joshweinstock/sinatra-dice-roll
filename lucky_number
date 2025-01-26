@@ -1,0 +1,5 @@
+require "sinatra"
+
+get ("/") do
+return "This is the homep"
+end
