@@ -1,5 +1,6 @@
 require "sinatra"
 
-get ("/") do
-return "This is the homep"
+
+get "/howdy" do
+return "This is the homepage"
 end
